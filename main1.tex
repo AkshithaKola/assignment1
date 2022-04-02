@@ -1,0 +1,66 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage[cmex10]{amsmath}
+\usepackage{amsthm}
+\usepackage[justification=centering]{caption}
+\usepackage{bm}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{mathtools}
+ \usepackage{tikz}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{listings}
+\usepackage{color}                                            %%
+\usepackage{array}                                            %%
+\usepackage{longtable}                                        %%
+\usepackage{calc}                                             %%
+\usepackage{multirow}                                         %%
+\usepackage{hhline}                                           %%
+\usepackage{ifthen}                                           %%
+\usepackage{lscape}     
+\usepackage{multicol}
+\usepackage[utf8]{inputenc}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\begin{document}
+\vspace{3cm}
+\title{Assignment I (ICSE Class 10 2019)}
+\author{Kola Akshitha}
+\maketitle
+\begin{enumerate}[label=\arabic{enumi} , start = 5]
+\item
+\begin{enumerate}[label=\alph{enumii}) , start = 1]
+\item There are 25 discs numbered 1 to 25. They are put in a closed box and shaken thoroughly. A disc is drawn at random from the box. 
+Find the probability that the number on the disc is:
+\begin{enumerate}[label=(\roman{enumiii})]
+    \item an odd number
+    \item divisible by 2 and 3 both.
+    \item a number less than 16.
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\solution\\
+Probability of event \begin{math} Pr(E) = \frac{n(E)}{n(S)} \end{math} \\
+Total number of discs \begin{math} n(S) = 25 \end{math} \\
+\begin{enumerate}[label=(\roman{enumi})]
+    \item an odd number\\
+   Number of odd numbered discs from 1 to 25 = 13\begin{align*} n(E) = 13 \\
+    Pr(E) = \frac{13}{25} = 0.52
+     \end{align*}
+     
+     
+    \item divisible by 2 and 3 both.\\
+    Number of discs numbered that are divisible by 2 and 3 = 4\begin{align*}
+    n(E) = 4 \\
+    Pr(E) = \frac{4}{25} = 0.16
+    \end{align*}
+    
+    \item a number less than 16.\\
+   Number of discs numbered less than 16 = 15 \begin{align*}n(E) = 15\\
+    Pr(E) = \frac{15}{25} = 0.6
+    \end{align*}
+    
+\end{enumerate}
+\end{document}
