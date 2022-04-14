@@ -1,6 +1,7 @@
 import numpy as np
-x=[np.random.randint(1,26) for i in range(1000)]
-z=np.unique(x)
+x=np.random.uniform(1,26,1000)
+y=np.floor(x)
+z=np.unique(y)
 n=len(z)
 #z is the array of outcomes
 
